@@ -72,18 +72,13 @@ BOARD_KERNEL_TAGS_OFFSET := 0x13f88000
 BOARD_RAMDISK_OFFSET := 0x14f88000
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-#TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/oppo/mt6771
 TARGET_KERNEL_CONFIG := oppo6771_17065_defconfig
-#TARGET_KERNEL_CLANG_COMPILE := true
-#TARGET_KERNEL_CLANG_VERSION := r353983d
-KERNEL_TOOLCHAIN_arm64 := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin
-KERNEL_TOOLCHAIN_PREFIX_arm64 := aarch64-linux-android-
-KERNEL_TOOLCHAIN_arm := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin
-KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-androideabi-
-
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := r316199
 TARGET_BOARD_SUFFIX := _64
-TARGET_NO_KERNEL := false
+# TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
+# TARGET_NO_KERNEL := false
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-05-05
