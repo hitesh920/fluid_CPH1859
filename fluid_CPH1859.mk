@@ -51,7 +51,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="full_oppo6771_17065-user 9 PPR1.180610.011 eng.root.20200509.060522 release-keys"
 
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.fluid.maintainer=hitesh920 \
+  ro.fluid.maintainer=Ghost \
   ro.fluid.cpu=HelioP60
   
 BUILD_FINGERPRINT := "google/flame/flame:11/RQ1A.210105.003/7005429:user/release-keys"
