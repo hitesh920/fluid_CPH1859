@@ -53,6 +53,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
   ro.fluid.maintainer=Ghost \
   ro.fluid.cpu=HelioP60
-  
-BUILD_FINGERPRINT := "google/flame/flame:11/RQ1A.210105.003/7005429:user/release-keys"
+
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ2A.210305.006/7119741:user/release-keys"
 
